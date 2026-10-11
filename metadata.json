@@ -1,0 +1,6 @@
+{
+  "name": "Ollama Studio - Local AI Interface & Runtime Monitor",
+  "description": "Clean dark-themed Ollama chat interface, model management dashboard, Colab-style CPU/RAM/VRAM resource monitor, interactive terminal, and performance telemetry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

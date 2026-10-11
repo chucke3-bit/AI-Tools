@@ -1,0 +1,15 @@
+services:
+  javid-studio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: javid-studio
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - OLLAMA_HOST=http://host.docker.internal:11434
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
